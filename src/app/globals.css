@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+ }
+
+/* Your custom font class */
+.word-font {
+  font-family: var(--e-global-typography-accent-font-family, "Open Sans"), Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight, 600);
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.navbar-text {
+  color: #000000;
+}
