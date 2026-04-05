@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="word-font">
         <Navbar></Navbar>
-        <main className="min-h-screen px-4 py-10 container mx-auto">
+        <main className="min-h-screen px-0 py-0 container mx-auto">
             {children}
           </main>
         <Footer></Footer>
