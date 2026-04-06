@@ -25,15 +25,14 @@ export default function ServiceArea() {
   ];
 
   return (
-    <div id="OurServices" className="w-full bg-gray-50 py-16 px-4 md:px-8">
+    <div id="OurServices" className="font-['Open_Sans']  w-full relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-gray-50 py-20 px-4 md:px-8 normal-case">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
             Our Service Areas
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-600  max-w-2xl mx-auto">
             Comprehensive legal expertise tailored to your needs
           </p>
         </div>
@@ -47,9 +46,9 @@ export default function ServiceArea() {
             >
               <div className="p-6">
                 {/* Icon/Visual Element */}
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors duration-300">
+                <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#fb2c36] transition-colors duration-300">
                   <svg
-                    className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors duration-300"
+                    className="w-6 h-6 text-[#fb2c36] group-hover:text-white transition-colors duration-300"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -65,12 +64,12 @@ export default function ServiceArea() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-gray-800 mb-1">
+                <h3 className="text-xl font-bold text-[#fb2c36] mb-1">
                   {service.title}
                 </h3>
 
                 {/* Subtitle */}
-                <p className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">
+                <p className="text-sm font-semibold text-[#fb2c36] uppercase tracking-wide mb-2">
                   {service.subtitle}
                 </p>
 
@@ -80,7 +79,7 @@ export default function ServiceArea() {
                 </p>
 
                 {/* Decorative line */}
-                <div className="mt-4 w-8 h-0.5 bg-gray-200 group-hover:w-12 group-hover:bg-blue-600 transition-all duration-300"></div>
+                <div className="mt-4 w-8 h-0.5 bg-gray-200 group-hover:w-12 group-hover:bg-[#fb2c36] transition-all duration-300"></div>
               </div>
             </div>
           ))}
