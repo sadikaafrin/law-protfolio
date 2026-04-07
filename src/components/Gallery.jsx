@@ -14,8 +14,7 @@ const images = [
 
 export default function Gallery() {
   return (
-    // <div id="OurServices" className="w-full bg-gray-50 py-16 px-4 md:px-8">
-    <section className="font-['Open_Sans'] bg-gray-50 py-16 px-4 md:px-8  w-full relative left-1/2 right-1/2 -mx-[50vw] w-screen">
+    <section id="Gallery" className="font-['Open_Sans'] bg-gray-50 py-16 px-4 md:px-8  w-full relative left-1/2 right-1/2 -mx-[50vw] w-screen">
       <div className="max-w-7xl mx-auto">
 
         {/* Title */}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <section className="font-['Open_Sans']  py-16 px-6 md:px-16">
+    <section id="AboutUs" className="font-['Open_Sans']  py-16 px-6 md:px-16">
       
       <div className="max-w-7xl mx-auto">
         

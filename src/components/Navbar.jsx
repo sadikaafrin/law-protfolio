@@ -56,6 +56,16 @@ const Navbar = () => {
             });
           }, 100);
         }
+      } else if (hash === "#Gallery") {
+        const element = document.getElementById("Gallery");
+        if (element) {
+          setTimeout(() => {
+            element.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }, 100);
+        }
       }
     };
 
@@ -97,6 +107,7 @@ const Navbar = () => {
       targetId: "OurServices",
     },
     { name: "Team Member", href: "#TeamMember", targetId: "TeamMember" },
+    { name: "Gallery", href: "#Gallery", targetId: "Gallery" },
     {
       name: "Contact Us",
       href: "#AppointmentBooking",
